@@ -1,0 +1,6 @@
+env/
+__pycache__/
+weights/
+data/
+model.py
+test.py
