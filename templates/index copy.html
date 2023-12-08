@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+        <title> Knee XRay Prediction</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center"> Knee OsteoArthritis Prediction using XRay Images</h1>
+        
+        <form action="/predict" class="p-3 text-center" , method="POST" enctype="multipart/form-data">
+            <input class="form-control" type="file" name="file" >
+            <input class="btn btn-primary mt-3"type="submit" formaction="/predict" value="Predict Image" >
+        </form>
+
+
+
+    </body>
+</html>

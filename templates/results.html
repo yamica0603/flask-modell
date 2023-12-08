@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prediction -Knee OA prediction</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Knee OA prediction</h1>
+            <p>You will see the prediction of the input image.</p>
+
+        {% if prediction is defined %}
+            <p class = "text-center"> The XRay image shows {{prediction}}</p>
+        {% endif %}
+        </header>
+    </div>
+</body>
+
+</html>
